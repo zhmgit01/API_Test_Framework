@@ -1,0 +1,453 @@
+2020-08-25 13:49:39,853 - [test_01login.py-->line:47] - ERROR: 用例登录成功,执行未通过
+2020-08-25 13:49:40,230 - [test_01login.py-->line:49] - ERROR: 0 != 1001
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_01login.py", line 44, in test_login
+    self.assertEqual(expected['code'], res['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 1001
+2020-08-25 13:49:46,870 - [test_02register.py-->line:64] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_02register.py", line 52, in test_register
+    self.assertEqual(expected['code'], res['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2020-08-25 13:49:46,875 - [test_02register.py-->line:65] - ERROR: 用例注册名11位,测试未通过
+2020-08-25 13:49:47,848 - [test_02register.py-->line:64] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_02register.py", line 52, in test_register
+    self.assertEqual(expected['code'], res['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2020-08-25 13:49:47,850 - [test_02register.py-->line:65] - ERROR: 用例手机号为字符串类型,测试未通过
+2020-08-25 13:53:47,764 - [test_01login.py-->line:47] - ERROR: 用例登录成功,执行未通过
+2020-08-25 13:53:48,075 - [test_01login.py-->line:49] - ERROR: 0 != 1001
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_01login.py", line 44, in test_login
+    self.assertEqual(expected['code'], res['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 1001
+2020-08-25 13:53:54,637 - [test_02register.py-->line:64] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_02register.py", line 52, in test_register
+    self.assertEqual(expected['code'], res['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2020-08-25 13:53:54,639 - [test_02register.py-->line:65] - ERROR: 用例注册名11位,测试未通过
+2020-08-25 13:53:55,594 - [test_02register.py-->line:64] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_02register.py", line 52, in test_register
+    self.assertEqual(expected['code'], res['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2020-08-25 13:53:55,596 - [test_02register.py-->line:65] - ERROR: 用例手机号为字符串类型,测试未通过
+2020-08-25 13:53:56,271 - [test_03recharge.py-->line:89] - ERROR: 用例充值成功，执行未通过
+2020-08-25 13:53:56,598 - [test_03recharge.py-->line:91] - ERROR: 'ok' != 'OK'
+- ok
++ OK
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_03recharge.py", line 83, in test_recharge
+    self.assertEqual(expected["msg"], res["msg"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: 'ok' != 'OK'
+- ok
++ OK
+
+2020-08-25 13:53:56,704 - [test_03recharge.py-->line:89] - ERROR: 用例id错误，执行未通过
+2020-08-25 13:53:57,017 - [test_03recharge.py-->line:91] - ERROR: 0 != 1007
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_03recharge.py", line 82, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 1007
+2020-08-25 13:53:57,123 - [test_03recharge.py-->line:89] - ERROR: 用例不输入id，执行未通过
+2020-08-25 13:53:57,446 - [test_03recharge.py-->line:91] - ERROR: 0 != 1
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_03recharge.py", line 82, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 1
+2020-08-25 13:53:57,553 - [test_03recharge.py-->line:89] - ERROR: 用例不输入金额，执行未通过
+2020-08-25 13:53:57,855 - [test_03recharge.py-->line:91] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_03recharge.py", line 82, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2020-08-25 13:53:57,955 - [test_03recharge.py-->line:89] - ERROR: 用例充值金额为负数，执行未通过
+2020-08-25 13:53:58,266 - [test_03recharge.py-->line:91] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_03recharge.py", line 82, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2020-08-25 13:53:58,366 - [test_03recharge.py-->line:89] - ERROR: 用例充值金额为500001，执行未通过
+2020-08-25 13:53:58,653 - [test_03recharge.py-->line:91] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_03recharge.py", line 82, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2020-08-25 13:53:58,759 - [test_03recharge.py-->line:89] - ERROR: 用例充值金额非数字，执行未通过
+2020-08-25 13:53:59,051 - [test_03recharge.py-->line:91] - ERROR: '数字格式化异常' != '余额必须为数值型'
+- 数字格式化异常
++ 余额必须为数值型
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_03recharge.py", line 83, in test_recharge
+    self.assertEqual(expected["msg"], res["msg"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '数字格式化异常' != '余额必须为数值型'
+- 数字格式化异常
++ 余额必须为数值型
+
+2020-08-25 13:53:59,162 - [test_03recharge.py-->line:89] - ERROR: 用例充值金额小数点3位，执行未通过
+2020-08-25 13:53:59,453 - [test_03recharge.py-->line:91] - ERROR: '金额小数超过两位' != '余额小数超过两位'
+- 金额小数超过两位
+? ^
++ 余额小数超过两位
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_03recharge.py", line 83, in test_recharge
+    self.assertEqual(expected["msg"], res["msg"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '金额小数超过两位' != '余额小数超过两位'
+- 金额小数超过两位
+? ^
++ 余额小数超过两位
+? ^
+
+2020-08-25 13:55:00,220 - [test_01login.py-->line:47] - ERROR: 用例登录成功,执行未通过
+2020-08-25 13:55:00,517 - [test_01login.py-->line:49] - ERROR: 0 != 1001
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_01login.py", line 44, in test_login
+    self.assertEqual(expected['code'], res['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 1001
+2020-08-25 13:55:07,088 - [test_02register.py-->line:64] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_02register.py", line 52, in test_register
+    self.assertEqual(expected['code'], res['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2020-08-25 13:55:07,090 - [test_02register.py-->line:65] - ERROR: 用例注册名11位,测试未通过
+2020-08-25 13:55:08,010 - [test_02register.py-->line:64] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_02register.py", line 52, in test_register
+    self.assertEqual(expected['code'], res['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2020-08-25 13:55:08,012 - [test_02register.py-->line:65] - ERROR: 用例手机号为字符串类型,测试未通过
+2020-08-25 13:58:27,658 - [test_01login.py-->line:47] - ERROR: 用例登录成功,执行未通过
+2020-08-25 13:58:27,966 - [test_01login.py-->line:49] - ERROR: 0 != 1001
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_01login.py", line 44, in test_login
+    self.assertEqual(expected['code'], res['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 1001
+2020-08-25 13:58:34,699 - [test_02register.py-->line:64] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_02register.py", line 52, in test_register
+    self.assertEqual(expected['code'], res['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2020-08-25 13:58:34,701 - [test_02register.py-->line:65] - ERROR: 用例注册名11位,测试未通过
+2020-08-25 13:58:35,705 - [test_02register.py-->line:64] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_02register.py", line 52, in test_register
+    self.assertEqual(expected['code'], res['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2020-08-25 13:58:35,706 - [test_02register.py-->line:65] - ERROR: 用例手机号为字符串类型,测试未通过
+2020-08-25 13:59:47,644 - [test_01login.py-->line:47] - ERROR: 用例登录成功,执行未通过
+2020-08-25 13:59:47,987 - [test_01login.py-->line:49] - ERROR: 0 != 1001
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_01login.py", line 44, in test_login
+    self.assertEqual(expected['code'], res['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 1001
+2020-08-25 13:59:54,629 - [test_02register.py-->line:64] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_02register.py", line 52, in test_register
+    self.assertEqual(expected['code'], res['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2020-08-25 13:59:54,631 - [test_02register.py-->line:65] - ERROR: 用例注册名11位,测试未通过
+2020-08-25 13:59:55,598 - [test_02register.py-->line:64] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_02register.py", line 52, in test_register
+    self.assertEqual(expected['code'], res['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2020-08-25 13:59:55,599 - [test_02register.py-->line:65] - ERROR: 用例手机号为字符串类型,测试未通过
+2020-08-25 14:00:42,775 - [test_01login.py-->line:47] - ERROR: 用例登录成功,执行未通过
+2020-08-25 14:00:43,077 - [test_01login.py-->line:49] - ERROR: 0 != 1001
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_01login.py", line 44, in test_login
+    self.assertEqual(expected['code'], res['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 1001
+2020-08-25 14:00:49,870 - [test_02register.py-->line:64] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_02register.py", line 52, in test_register
+    self.assertEqual(expected['code'], res['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2020-08-25 14:00:49,871 - [test_02register.py-->line:65] - ERROR: 用例注册名11位,测试未通过
+2020-08-25 14:00:50,837 - [test_02register.py-->line:64] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_02register.py", line 52, in test_register
+    self.assertEqual(expected['code'], res['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2020-08-25 14:00:50,839 - [test_02register.py-->line:65] - ERROR: 用例手机号为字符串类型,测试未通过
+2020-08-25 14:01:39,139 - [test_01login.py-->line:47] - ERROR: 用例登录成功,执行未通过
+2020-08-25 14:01:39,204 - [test_01login.py-->line:49] - ERROR: 0 != 1001
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_01login.py", line 44, in test_login
+    self.assertEqual(expected['code'], res['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 1001
+2020-08-25 14:01:42,307 - [test_02register.py-->line:64] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_02register.py", line 52, in test_register
+    self.assertEqual(expected['code'], res['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2020-08-25 14:01:42,308 - [test_02register.py-->line:65] - ERROR: 用例注册名11位,测试未通过
+2020-08-25 14:01:43,039 - [test_02register.py-->line:64] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_02register.py", line 52, in test_register
+    self.assertEqual(expected['code'], res['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2020-08-25 14:01:43,040 - [test_02register.py-->line:65] - ERROR: 用例手机号为字符串类型,测试未通过
+2020-08-25 14:01:43,473 - [test_03recharge.py-->line:89] - ERROR: 用例充值成功，执行未通过
+2020-08-25 14:01:43,534 - [test_03recharge.py-->line:91] - ERROR: Decimal('1.00') != '1'
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_03recharge.py", line 83, in test_recharge
+    self.assertEqual(end_amount - start_amount, eval(item['data'])['amount'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: Decimal('1.00') != '1'
+2020-08-25 14:02:53,667 - [test_01login.py-->line:47] - ERROR: 用例登录成功,执行未通过
+2020-08-25 14:02:53,739 - [test_01login.py-->line:49] - ERROR: 0 != 1001
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_01login.py", line 44, in test_login
+    self.assertEqual(expected['code'], res['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 1001
+2020-08-25 14:02:56,804 - [test_02register.py-->line:64] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_02register.py", line 52, in test_register
+    self.assertEqual(expected['code'], res['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2020-08-25 14:02:56,805 - [test_02register.py-->line:65] - ERROR: 用例注册名11位,测试未通过
+2020-08-25 14:02:57,273 - [test_02register.py-->line:64] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_02register.py", line 52, in test_register
+    self.assertEqual(expected['code'], res['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2020-08-25 14:02:57,276 - [test_02register.py-->line:65] - ERROR: 用例手机号为字符串类型,测试未通过
+2020-08-25 14:02:57,693 - [test_03recharge.py-->line:90] - ERROR: 用例充值成功，执行未通过
+2020-08-25 14:02:57,760 - [test_03recharge.py-->line:92] - ERROR: Decimal('1.00') != '1'
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_03recharge.py", line 84, in test_recharge
+    self.assertEqual(end_amount - start_amount, eval(item['data'])['amount'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: Decimal('1.00') != '1'
+2020-08-25 14:02:57,856 - [test_03recharge.py-->line:90] - ERROR: 用例id错误，执行未通过
+2020-08-25 14:02:57,928 - [test_03recharge.py-->line:92] - ERROR: 0 != 1007
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_03recharge.py", line 86, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 1007
+2020-08-25 14:02:58,013 - [test_03recharge.py-->line:90] - ERROR: 用例不输入id，执行未通过
+2020-08-25 14:02:58,084 - [test_03recharge.py-->line:92] - ERROR: 0 != 1
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_03recharge.py", line 86, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 1
+2020-08-25 14:02:58,168 - [test_03recharge.py-->line:90] - ERROR: 用例不输入金额，执行未通过
+2020-08-25 14:02:58,236 - [test_03recharge.py-->line:92] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_03recharge.py", line 86, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2020-08-25 14:02:58,329 - [test_03recharge.py-->line:90] - ERROR: 用例充值金额为负数，执行未通过
+2020-08-25 14:02:58,396 - [test_03recharge.py-->line:92] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_03recharge.py", line 86, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2020-08-25 14:02:58,477 - [test_03recharge.py-->line:90] - ERROR: 用例充值金额为500001，执行未通过
+2020-08-25 14:02:58,550 - [test_03recharge.py-->line:92] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_03recharge.py", line 86, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2020-08-25 14:02:58,648 - [test_03recharge.py-->line:90] - ERROR: 用例充值金额非数字，执行未通过
+2020-08-25 14:02:58,726 - [test_03recharge.py-->line:92] - ERROR: '数字格式化异常' != '余额必须为数值型'
+- 数字格式化异常
++ 余额必须为数值型
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_03recharge.py", line 87, in test_recharge
+    self.assertEqual(expected["msg"], res["msg"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '数字格式化异常' != '余额必须为数值型'
+- 数字格式化异常
++ 余额必须为数值型
+
+2020-08-25 14:02:58,813 - [test_03recharge.py-->line:90] - ERROR: 用例充值金额小数点3位，执行未通过
+2020-08-25 14:02:58,883 - [test_03recharge.py-->line:92] - ERROR: '金额小数超过两位' != '余额小数超过两位'
+- 金额小数超过两位
+? ^
++ 余额小数超过两位
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_03recharge.py", line 87, in test_recharge
+    self.assertEqual(expected["msg"], res["msg"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '金额小数超过两位' != '余额小数超过两位'
+- 金额小数超过两位
+? ^
++ 余额小数超过两位
+? ^
+
