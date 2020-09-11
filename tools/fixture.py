@@ -25,6 +25,7 @@ def setup_login(cls):
     res = response.json()
     # 提取token
     token = jsonpath(res, "$..token")[0]
+    cls.token_value = token
     cls.token = "Bearer" + " " + token
     # 提取用户id
     cls.member_id = jsonpath(res, "$..id")[0]
