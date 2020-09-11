@@ -1376,3 +1376,2303 @@ Traceback (most recent call last):
   File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
     raise self.failureException(msg)
 AssertionError: 2 != 0
+2020-09-11 16:06:50,826 - [test_02register.py-->line:64] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_02register.py", line 52, in test_register
+    self.assertEqual(expected['code'], res['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2020-09-11 16:06:50,829 - [test_02register.py-->line:65] - ERROR: 用例注册名11位,测试未通过
+2020-09-11 16:06:51,473 - [test_02register.py-->line:64] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_02register.py", line 52, in test_register
+    self.assertEqual(expected['code'], res['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2020-09-11 16:06:51,474 - [test_02register.py-->line:65] - ERROR: 用例手机号为字符串类型,测试未通过
+2020-09-11 16:06:53,145 - [test_03recharge.py-->line:78] - ERROR: 用例不输入金额，执行未通过
+2020-09-11 16:06:53,282 - [test_03recharge.py-->line:80] - ERROR: 1 != 2
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_03recharge.py", line 74, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 2
+2020-09-11 16:06:53,377 - [test_03recharge.py-->line:78] - ERROR: 用例充值金额为负数，执行未通过
+2020-09-11 16:06:53,526 - [test_03recharge.py-->line:80] - ERROR: '金额必须大于0并且小于或者等于500000' != '余额必须大于0并且小于或者等于500000'
+- 金额必须大于0并且小于或者等于500000
+? ^
++ 余额必须大于0并且小于或者等于500000
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_03recharge.py", line 75, in test_recharge
+    self.assertEqual(expected["msg"], res["msg"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '金额必须大于0并且小于或者等于500000' != '余额必须大于0并且小于或者等于500000'
+- 金额必须大于0并且小于或者等于500000
+? ^
++ 余额必须大于0并且小于或者等于500000
+? ^
+
+2020-09-11 16:06:53,609 - [test_03recharge.py-->line:78] - ERROR: 用例充值金额为500001，执行未通过
+2020-09-11 16:06:53,785 - [test_03recharge.py-->line:80] - ERROR: '金额必须大于0并且小于或者等于500000' != '余额必须大于0并且小于或者等于500000'
+- 金额必须大于0并且小于或者等于500000
+? ^
++ 余额必须大于0并且小于或者等于500000
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_03recharge.py", line 75, in test_recharge
+    self.assertEqual(expected["msg"], res["msg"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '金额必须大于0并且小于或者等于500000' != '余额必须大于0并且小于或者等于500000'
+- 金额必须大于0并且小于或者等于500000
+? ^
++ 余额必须大于0并且小于或者等于500000
+? ^
+
+2020-09-11 16:06:53,883 - [test_03recharge.py-->line:78] - ERROR: 用例充值金额非数字，执行未通过
+2020-09-11 16:06:54,052 - [test_03recharge.py-->line:80] - ERROR: '金额必须为数值型' != '余额必须为数值型'
+- 金额必须为数值型
+? ^
++ 余额必须为数值型
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_03recharge.py", line 75, in test_recharge
+    self.assertEqual(expected["msg"], res["msg"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '金额必须为数值型' != '余额必须为数值型'
+- 金额必须为数值型
+? ^
++ 余额必须为数值型
+? ^
+
+2020-09-11 16:06:54,153 - [test_03recharge.py-->line:78] - ERROR: 用例充值金额小数点3位，执行未通过
+2020-09-11 16:06:54,300 - [test_03recharge.py-->line:80] - ERROR: '金额小数超过两位' != '余额小数超过两位'
+- 金额小数超过两位
+? ^
++ 余额小数超过两位
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_03recharge.py", line 75, in test_recharge
+    self.assertEqual(expected["msg"], res["msg"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '金额小数超过两位' != '余额小数超过两位'
+- 金额小数超过两位
+? ^
++ 余额小数超过两位
+? ^
+
+2020-09-11 16:06:55,803 - [test_03recharge_v3.py-->line:90] - ERROR: 用例不输入金额，执行未通过
+2020-09-11 16:06:55,967 - [test_03recharge_v3.py-->line:92] - ERROR: 1 != 2
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_03recharge_v3.py", line 86, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 2
+2020-09-11 16:06:56,065 - [test_03recharge_v3.py-->line:90] - ERROR: 用例充值金额为负数，执行未通过
+2020-09-11 16:06:56,210 - [test_03recharge_v3.py-->line:92] - ERROR: '金额必须大于0并且小于或者等于500000' != '余额必须大于0并且小于或者等于500000'
+- 金额必须大于0并且小于或者等于500000
+? ^
++ 余额必须大于0并且小于或者等于500000
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_03recharge_v3.py", line 87, in test_recharge
+    self.assertEqual(expected["msg"], res["msg"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '金额必须大于0并且小于或者等于500000' != '余额必须大于0并且小于或者等于500000'
+- 金额必须大于0并且小于或者等于500000
+? ^
++ 余额必须大于0并且小于或者等于500000
+? ^
+
+2020-09-11 16:06:56,305 - [test_03recharge_v3.py-->line:90] - ERROR: 用例充值金额为500001，执行未通过
+2020-09-11 16:06:56,454 - [test_03recharge_v3.py-->line:92] - ERROR: '金额必须大于0并且小于或者等于500000' != '余额必须大于0并且小于或者等于500000'
+- 金额必须大于0并且小于或者等于500000
+? ^
++ 余额必须大于0并且小于或者等于500000
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_03recharge_v3.py", line 87, in test_recharge
+    self.assertEqual(expected["msg"], res["msg"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '金额必须大于0并且小于或者等于500000' != '余额必须大于0并且小于或者等于500000'
+- 金额必须大于0并且小于或者等于500000
+? ^
++ 余额必须大于0并且小于或者等于500000
+? ^
+
+2020-09-11 16:06:56,542 - [test_03recharge_v3.py-->line:90] - ERROR: 用例充值金额非数字，执行未通过
+2020-09-11 16:06:56,739 - [test_03recharge_v3.py-->line:92] - ERROR: '金额必须为数值型' != '余额必须为数值型'
+- 金额必须为数值型
+? ^
++ 余额必须为数值型
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_03recharge_v3.py", line 87, in test_recharge
+    self.assertEqual(expected["msg"], res["msg"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '金额必须为数值型' != '余额必须为数值型'
+- 金额必须为数值型
+? ^
++ 余额必须为数值型
+? ^
+
+2020-09-11 16:06:56,825 - [test_03recharge_v3.py-->line:90] - ERROR: 用例充值金额小数点3位，执行未通过
+2020-09-11 16:06:56,968 - [test_03recharge_v3.py-->line:92] - ERROR: '金额小数超过两位' != '余额小数超过两位'
+- 金额小数超过两位
+? ^
++ 余额小数超过两位
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_03recharge_v3.py", line 87, in test_recharge
+    self.assertEqual(expected["msg"], res["msg"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '金额小数超过两位' != '余额小数超过两位'
+- 金额小数超过两位
+? ^
++ 余额小数超过两位
+? ^
+
+2020-09-11 16:06:59,294 - [test_04withdraw.py-->line:67] - ERROR: 用例会员id为数值：执行失败
+2020-09-11 16:06:59,294 - [test_04withdraw.py-->line:68] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_04withdraw.py", line 64, in test_withdraw
+    self.assertEqual(jsonpath(res, '$.code')[0], expected['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2020-09-11 16:06:59,749 - [test_04withdraw.py-->line:67] - ERROR: 用例提现金额为0：执行失败
+2020-09-11 16:06:59,749 - [test_04withdraw.py-->line:68] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_04withdraw.py", line 64, in test_withdraw
+    self.assertEqual(jsonpath(res, '$.code')[0], expected['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2020-09-11 16:06:59,985 - [test_04withdraw.py-->line:67] - ERROR: 用例提现金额为负数：执行失败
+2020-09-11 16:06:59,985 - [test_04withdraw.py-->line:68] - ERROR: '余额必须大于0并且小于或者等于5000000' != '金额必须大于0并且小于或者等于500000'
+- 余额必须大于0并且小于或者等于5000000
+? ^                    -
++ 金额必须大于0并且小于或者等于500000
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_04withdraw.py", line 65, in test_withdraw
+    self.assertEqual(jsonpath(res, '$.msg')[0], expected['msg'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '余额必须大于0并且小于或者等于5000000' != '金额必须大于0并且小于或者等于500000'
+- 余额必须大于0并且小于或者等于5000000
+? ^                    -
++ 金额必须大于0并且小于或者等于500000
+? ^
+
+2020-09-11 16:07:00,214 - [test_04withdraw.py-->line:67] - ERROR: 用例提现金额为空：执行失败
+2020-09-11 16:07:00,215 - [test_04withdraw.py-->line:68] - ERROR: '余额为空' != '金额为空'
+- 余额为空
+? ^
++ 金额为空
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_04withdraw.py", line 65, in test_withdraw
+    self.assertEqual(jsonpath(res, '$.msg')[0], expected['msg'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '余额为空' != '金额为空'
+- 余额为空
+? ^
++ 金额为空
+? ^
+
+2020-09-11 16:07:00,451 - [test_04withdraw.py-->line:67] - ERROR: 用例提现金额-3位小数：执行失败
+2020-09-11 16:07:00,451 - [test_04withdraw.py-->line:68] - ERROR: '余额小数超过两位' != '金额小数超过两位'
+- 余额小数超过两位
+? ^
++ 金额小数超过两位
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_04withdraw.py", line 65, in test_withdraw
+    self.assertEqual(jsonpath(res, '$.msg')[0], expected['msg'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '余额小数超过两位' != '金额小数超过两位'
+- 余额小数超过两位
+? ^
++ 金额小数超过两位
+? ^
+
+2020-09-11 16:07:00,677 - [test_04withdraw.py-->line:67] - ERROR: 用例提现金额-大于50万：执行失败
+2020-09-11 16:07:00,678 - [test_04withdraw.py-->line:68] - ERROR: '余额必须大于0并且小于或者等于5000000' != '金额必须大于0并且小于或者等于500000'
+- 余额必须大于0并且小于或者等于5000000
+? ^                    -
++ 金额必须大于0并且小于或者等于500000
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_04withdraw.py", line 65, in test_withdraw
+    self.assertEqual(jsonpath(res, '$.msg')[0], expected['msg'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '余额必须大于0并且小于或者等于5000000' != '金额必须大于0并且小于或者等于500000'
+- 余额必须大于0并且小于或者等于5000000
+? ^                    -
++ 金额必须大于0并且小于或者等于500000
+? ^
+
+2020-09-11 16:07:03,204 - [test_04withdraw_v3.py-->line:79] - ERROR: 用例会员id为数值：执行失败
+2020-09-11 16:07:03,205 - [test_04withdraw_v3.py-->line:80] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_04withdraw_v3.py", line 76, in test_withdraw
+    self.assertEqual(jsonpath(res, '$.code')[0], expected['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2020-09-11 16:07:03,676 - [test_04withdraw_v3.py-->line:79] - ERROR: 用例提现金额为0：执行失败
+2020-09-11 16:07:03,677 - [test_04withdraw_v3.py-->line:80] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_04withdraw_v3.py", line 76, in test_withdraw
+    self.assertEqual(jsonpath(res, '$.code')[0], expected['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2020-09-11 16:07:03,917 - [test_04withdraw_v3.py-->line:79] - ERROR: 用例提现金额为负数：执行失败
+2020-09-11 16:07:03,917 - [test_04withdraw_v3.py-->line:80] - ERROR: '余额必须大于0并且小于或者等于5000000' != '金额必须大于0并且小于或者等于500000'
+- 余额必须大于0并且小于或者等于5000000
+? ^                    -
++ 金额必须大于0并且小于或者等于500000
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_04withdraw_v3.py", line 77, in test_withdraw
+    self.assertEqual(jsonpath(res, '$.msg')[0], expected['msg'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '余额必须大于0并且小于或者等于5000000' != '金额必须大于0并且小于或者等于500000'
+- 余额必须大于0并且小于或者等于5000000
+? ^                    -
++ 金额必须大于0并且小于或者等于500000
+? ^
+
+2020-09-11 16:07:04,145 - [test_04withdraw_v3.py-->line:79] - ERROR: 用例提现金额为空：执行失败
+2020-09-11 16:07:04,145 - [test_04withdraw_v3.py-->line:80] - ERROR: '余额为空' != '金额为空'
+- 余额为空
+? ^
++ 金额为空
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_04withdraw_v3.py", line 77, in test_withdraw
+    self.assertEqual(jsonpath(res, '$.msg')[0], expected['msg'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '余额为空' != '金额为空'
+- 余额为空
+? ^
++ 金额为空
+? ^
+
+2020-09-11 16:07:04,369 - [test_04withdraw_v3.py-->line:79] - ERROR: 用例提现金额-3位小数：执行失败
+2020-09-11 16:07:04,369 - [test_04withdraw_v3.py-->line:80] - ERROR: '余额小数超过两位' != '金额小数超过两位'
+- 余额小数超过两位
+? ^
++ 金额小数超过两位
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_04withdraw_v3.py", line 77, in test_withdraw
+    self.assertEqual(jsonpath(res, '$.msg')[0], expected['msg'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '余额小数超过两位' != '金额小数超过两位'
+- 余额小数超过两位
+? ^
++ 金额小数超过两位
+? ^
+
+2020-09-11 16:07:04,604 - [test_04withdraw_v3.py-->line:79] - ERROR: 用例提现金额-大于50万：执行失败
+2020-09-11 16:07:04,604 - [test_04withdraw_v3.py-->line:80] - ERROR: '余额必须大于0并且小于或者等于5000000' != '金额必须大于0并且小于或者等于500000'
+- 余额必须大于0并且小于或者等于5000000
+? ^                    -
++ 金额必须大于0并且小于或者等于500000
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_04withdraw_v3.py", line 77, in test_withdraw
+    self.assertEqual(jsonpath(res, '$.msg')[0], expected['msg'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '余额必须大于0并且小于或者等于5000000' != '金额必须大于0并且小于或者等于500000'
+- 余额必须大于0并且小于或者等于5000000
+? ^                    -
++ 金额必须大于0并且小于或者等于500000
+? ^
+
+2020-09-11 16:07:14,644 - [test_08update.py-->line:49] - ERROR: 用例修改昵称成功,执行失败
+2020-09-11 16:07:14,644 - [test_08update.py-->line:50] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_08update.py", line 46, in test_update
+    self.assertEqual(res['code'], expected['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2020-09-11 16:07:15,340 - [test_08update.py-->line:49] - ERROR: 用例昵称长度10位,执行失败
+2020-09-11 16:07:15,340 - [test_08update.py-->line:50] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_08update.py", line 46, in test_update
+    self.assertEqual(res['code'], expected['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2020-09-11 16:20:40,145 - [test_02register.py-->line:64] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_02register.py", line 52, in test_register
+    self.assertEqual(expected['code'], res['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2020-09-11 16:20:40,146 - [test_02register.py-->line:65] - ERROR: 用例注册名11位,测试未通过
+2020-09-11 16:20:40,826 - [test_02register.py-->line:64] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_02register.py", line 52, in test_register
+    self.assertEqual(expected['code'], res['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2020-09-11 16:20:40,827 - [test_02register.py-->line:65] - ERROR: 用例手机号为字符串类型,测试未通过
+2020-09-11 16:20:42,573 - [test_03recharge.py-->line:78] - ERROR: 用例不输入金额，执行未通过
+2020-09-11 16:20:42,717 - [test_03recharge.py-->line:80] - ERROR: 1 != 2
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_03recharge.py", line 74, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 2
+2020-09-11 16:20:42,804 - [test_03recharge.py-->line:78] - ERROR: 用例充值金额为负数，执行未通过
+2020-09-11 16:20:42,951 - [test_03recharge.py-->line:80] - ERROR: '金额必须大于0并且小于或者等于500000' != '余额必须大于0并且小于或者等于500000'
+- 金额必须大于0并且小于或者等于500000
+? ^
++ 余额必须大于0并且小于或者等于500000
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_03recharge.py", line 75, in test_recharge
+    self.assertEqual(expected["msg"], res["msg"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '金额必须大于0并且小于或者等于500000' != '余额必须大于0并且小于或者等于500000'
+- 金额必须大于0并且小于或者等于500000
+? ^
++ 余额必须大于0并且小于或者等于500000
+? ^
+
+2020-09-11 16:20:43,048 - [test_03recharge.py-->line:78] - ERROR: 用例充值金额为500001，执行未通过
+2020-09-11 16:20:43,195 - [test_03recharge.py-->line:80] - ERROR: '金额必须大于0并且小于或者等于500000' != '余额必须大于0并且小于或者等于500000'
+- 金额必须大于0并且小于或者等于500000
+? ^
++ 余额必须大于0并且小于或者等于500000
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_03recharge.py", line 75, in test_recharge
+    self.assertEqual(expected["msg"], res["msg"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '金额必须大于0并且小于或者等于500000' != '余额必须大于0并且小于或者等于500000'
+- 金额必须大于0并且小于或者等于500000
+? ^
++ 余额必须大于0并且小于或者等于500000
+? ^
+
+2020-09-11 16:20:43,277 - [test_03recharge.py-->line:78] - ERROR: 用例充值金额非数字，执行未通过
+2020-09-11 16:20:43,427 - [test_03recharge.py-->line:80] - ERROR: '金额必须为数值型' != '余额必须为数值型'
+- 金额必须为数值型
+? ^
++ 余额必须为数值型
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_03recharge.py", line 75, in test_recharge
+    self.assertEqual(expected["msg"], res["msg"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '金额必须为数值型' != '余额必须为数值型'
+- 金额必须为数值型
+? ^
++ 余额必须为数值型
+? ^
+
+2020-09-11 16:20:43,524 - [test_03recharge.py-->line:78] - ERROR: 用例充值金额小数点3位，执行未通过
+2020-09-11 16:20:43,673 - [test_03recharge.py-->line:80] - ERROR: '金额小数超过两位' != '余额小数超过两位'
+- 金额小数超过两位
+? ^
++ 余额小数超过两位
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_03recharge.py", line 75, in test_recharge
+    self.assertEqual(expected["msg"], res["msg"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '金额小数超过两位' != '余额小数超过两位'
+- 金额小数超过两位
+? ^
++ 余额小数超过两位
+? ^
+
+2020-09-11 16:20:45,274 - [test_03recharge_v3.py-->line:90] - ERROR: 用例不输入金额，执行未通过
+2020-09-11 16:20:45,416 - [test_03recharge_v3.py-->line:92] - ERROR: 1 != 2
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_03recharge_v3.py", line 86, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 2
+2020-09-11 16:20:45,502 - [test_03recharge_v3.py-->line:90] - ERROR: 用例充值金额为负数，执行未通过
+2020-09-11 16:20:45,654 - [test_03recharge_v3.py-->line:92] - ERROR: '金额必须大于0并且小于或者等于500000' != '余额必须大于0并且小于或者等于500000'
+- 金额必须大于0并且小于或者等于500000
+? ^
++ 余额必须大于0并且小于或者等于500000
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_03recharge_v3.py", line 87, in test_recharge
+    self.assertEqual(expected["msg"], res["msg"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '金额必须大于0并且小于或者等于500000' != '余额必须大于0并且小于或者等于500000'
+- 金额必须大于0并且小于或者等于500000
+? ^
++ 余额必须大于0并且小于或者等于500000
+? ^
+
+2020-09-11 16:20:45,735 - [test_03recharge_v3.py-->line:90] - ERROR: 用例充值金额为500001，执行未通过
+2020-09-11 16:20:45,936 - [test_03recharge_v3.py-->line:92] - ERROR: '金额必须大于0并且小于或者等于500000' != '余额必须大于0并且小于或者等于500000'
+- 金额必须大于0并且小于或者等于500000
+? ^
++ 余额必须大于0并且小于或者等于500000
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_03recharge_v3.py", line 87, in test_recharge
+    self.assertEqual(expected["msg"], res["msg"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '金额必须大于0并且小于或者等于500000' != '余额必须大于0并且小于或者等于500000'
+- 金额必须大于0并且小于或者等于500000
+? ^
++ 余额必须大于0并且小于或者等于500000
+? ^
+
+2020-09-11 16:20:46,023 - [test_03recharge_v3.py-->line:90] - ERROR: 用例充值金额非数字，执行未通过
+2020-09-11 16:20:46,168 - [test_03recharge_v3.py-->line:92] - ERROR: '金额必须为数值型' != '余额必须为数值型'
+- 金额必须为数值型
+? ^
++ 余额必须为数值型
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_03recharge_v3.py", line 87, in test_recharge
+    self.assertEqual(expected["msg"], res["msg"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '金额必须为数值型' != '余额必须为数值型'
+- 金额必须为数值型
+? ^
++ 余额必须为数值型
+? ^
+
+2020-09-11 16:20:46,265 - [test_03recharge_v3.py-->line:90] - ERROR: 用例充值金额小数点3位，执行未通过
+2020-09-11 16:20:46,409 - [test_03recharge_v3.py-->line:92] - ERROR: '金额小数超过两位' != '余额小数超过两位'
+- 金额小数超过两位
+? ^
++ 余额小数超过两位
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_03recharge_v3.py", line 87, in test_recharge
+    self.assertEqual(expected["msg"], res["msg"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '金额小数超过两位' != '余额小数超过两位'
+- 金额小数超过两位
+? ^
++ 余额小数超过两位
+? ^
+
+2020-09-11 16:20:48,875 - [test_04withdraw.py-->line:67] - ERROR: 用例会员id为数值：执行失败
+2020-09-11 16:20:48,875 - [test_04withdraw.py-->line:68] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_04withdraw.py", line 64, in test_withdraw
+    self.assertEqual(jsonpath(res, '$.code')[0], expected['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2020-09-11 16:20:49,343 - [test_04withdraw.py-->line:67] - ERROR: 用例提现金额为0：执行失败
+2020-09-11 16:20:49,344 - [test_04withdraw.py-->line:68] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_04withdraw.py", line 64, in test_withdraw
+    self.assertEqual(jsonpath(res, '$.code')[0], expected['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2020-09-11 16:20:49,576 - [test_04withdraw.py-->line:67] - ERROR: 用例提现金额为负数：执行失败
+2020-09-11 16:20:49,576 - [test_04withdraw.py-->line:68] - ERROR: '余额必须大于0并且小于或者等于5000000' != '金额必须大于0并且小于或者等于500000'
+- 余额必须大于0并且小于或者等于5000000
+? ^                    -
++ 金额必须大于0并且小于或者等于500000
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_04withdraw.py", line 65, in test_withdraw
+    self.assertEqual(jsonpath(res, '$.msg')[0], expected['msg'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '余额必须大于0并且小于或者等于5000000' != '金额必须大于0并且小于或者等于500000'
+- 余额必须大于0并且小于或者等于5000000
+? ^                    -
++ 金额必须大于0并且小于或者等于500000
+? ^
+
+2020-09-11 16:20:49,801 - [test_04withdraw.py-->line:67] - ERROR: 用例提现金额为空：执行失败
+2020-09-11 16:20:49,801 - [test_04withdraw.py-->line:68] - ERROR: '余额为空' != '金额为空'
+- 余额为空
+? ^
++ 金额为空
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_04withdraw.py", line 65, in test_withdraw
+    self.assertEqual(jsonpath(res, '$.msg')[0], expected['msg'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '余额为空' != '金额为空'
+- 余额为空
+? ^
++ 金额为空
+? ^
+
+2020-09-11 16:20:50,023 - [test_04withdraw.py-->line:67] - ERROR: 用例提现金额-3位小数：执行失败
+2020-09-11 16:20:50,023 - [test_04withdraw.py-->line:68] - ERROR: '余额小数超过两位' != '金额小数超过两位'
+- 余额小数超过两位
+? ^
++ 金额小数超过两位
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_04withdraw.py", line 65, in test_withdraw
+    self.assertEqual(jsonpath(res, '$.msg')[0], expected['msg'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '余额小数超过两位' != '金额小数超过两位'
+- 余额小数超过两位
+? ^
++ 金额小数超过两位
+? ^
+
+2020-09-11 16:20:50,257 - [test_04withdraw.py-->line:67] - ERROR: 用例提现金额-大于50万：执行失败
+2020-09-11 16:20:50,257 - [test_04withdraw.py-->line:68] - ERROR: '余额必须大于0并且小于或者等于5000000' != '金额必须大于0并且小于或者等于500000'
+- 余额必须大于0并且小于或者等于5000000
+? ^                    -
++ 金额必须大于0并且小于或者等于500000
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_04withdraw.py", line 65, in test_withdraw
+    self.assertEqual(jsonpath(res, '$.msg')[0], expected['msg'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '余额必须大于0并且小于或者等于5000000' != '金额必须大于0并且小于或者等于500000'
+- 余额必须大于0并且小于或者等于5000000
+? ^                    -
++ 金额必须大于0并且小于或者等于500000
+? ^
+
+2020-09-11 16:20:53,021 - [test_04withdraw_v3.py-->line:79] - ERROR: 用例会员id为数值：执行失败
+2020-09-11 16:20:53,022 - [test_04withdraw_v3.py-->line:80] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_04withdraw_v3.py", line 76, in test_withdraw
+    self.assertEqual(jsonpath(res, '$.code')[0], expected['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2020-09-11 16:20:53,485 - [test_04withdraw_v3.py-->line:79] - ERROR: 用例提现金额为0：执行失败
+2020-09-11 16:20:53,486 - [test_04withdraw_v3.py-->line:80] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_04withdraw_v3.py", line 76, in test_withdraw
+    self.assertEqual(jsonpath(res, '$.code')[0], expected['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2020-09-11 16:20:53,731 - [test_04withdraw_v3.py-->line:79] - ERROR: 用例提现金额为负数：执行失败
+2020-09-11 16:20:53,731 - [test_04withdraw_v3.py-->line:80] - ERROR: '余额必须大于0并且小于或者等于5000000' != '金额必须大于0并且小于或者等于500000'
+- 余额必须大于0并且小于或者等于5000000
+? ^                    -
++ 金额必须大于0并且小于或者等于500000
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_04withdraw_v3.py", line 77, in test_withdraw
+    self.assertEqual(jsonpath(res, '$.msg')[0], expected['msg'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '余额必须大于0并且小于或者等于5000000' != '金额必须大于0并且小于或者等于500000'
+- 余额必须大于0并且小于或者等于5000000
+? ^                    -
++ 金额必须大于0并且小于或者等于500000
+? ^
+
+2020-09-11 16:20:53,955 - [test_04withdraw_v3.py-->line:79] - ERROR: 用例提现金额为空：执行失败
+2020-09-11 16:20:53,956 - [test_04withdraw_v3.py-->line:80] - ERROR: '余额为空' != '金额为空'
+- 余额为空
+? ^
++ 金额为空
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_04withdraw_v3.py", line 77, in test_withdraw
+    self.assertEqual(jsonpath(res, '$.msg')[0], expected['msg'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '余额为空' != '金额为空'
+- 余额为空
+? ^
++ 金额为空
+? ^
+
+2020-09-11 16:20:54,194 - [test_04withdraw_v3.py-->line:79] - ERROR: 用例提现金额-3位小数：执行失败
+2020-09-11 16:20:54,194 - [test_04withdraw_v3.py-->line:80] - ERROR: '余额小数超过两位' != '金额小数超过两位'
+- 余额小数超过两位
+? ^
++ 金额小数超过两位
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_04withdraw_v3.py", line 77, in test_withdraw
+    self.assertEqual(jsonpath(res, '$.msg')[0], expected['msg'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '余额小数超过两位' != '金额小数超过两位'
+- 余额小数超过两位
+? ^
++ 金额小数超过两位
+? ^
+
+2020-09-11 16:20:54,418 - [test_04withdraw_v3.py-->line:79] - ERROR: 用例提现金额-大于50万：执行失败
+2020-09-11 16:20:54,418 - [test_04withdraw_v3.py-->line:80] - ERROR: '余额必须大于0并且小于或者等于5000000' != '金额必须大于0并且小于或者等于500000'
+- 余额必须大于0并且小于或者等于5000000
+? ^                    -
++ 金额必须大于0并且小于或者等于500000
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_04withdraw_v3.py", line 77, in test_withdraw
+    self.assertEqual(jsonpath(res, '$.msg')[0], expected['msg'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '余额必须大于0并且小于或者等于5000000' != '金额必须大于0并且小于或者等于500000'
+- 余额必须大于0并且小于或者等于5000000
+? ^                    -
++ 金额必须大于0并且小于或者等于500000
+? ^
+
+2020-09-11 16:21:07,047 - [test_08update.py-->line:49] - ERROR: 用例修改昵称成功,执行失败
+2020-09-11 16:21:07,047 - [test_08update.py-->line:50] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_08update.py", line 46, in test_update
+    self.assertEqual(res['code'], expected['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2020-09-11 16:21:07,808 - [test_08update.py-->line:49] - ERROR: 用例昵称长度10位,执行失败
+2020-09-11 16:21:07,808 - [test_08update.py-->line:50] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_08update.py", line 46, in test_update
+    self.assertEqual(res['code'], expected['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2020-09-11 16:21:38,817 - [test_02register.py-->line:64] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_02register.py", line 52, in test_register
+    self.assertEqual(expected['code'], res['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2020-09-11 16:21:38,820 - [test_02register.py-->line:65] - ERROR: 用例注册名11位,测试未通过
+2020-09-11 16:21:39,607 - [test_02register.py-->line:64] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_02register.py", line 52, in test_register
+    self.assertEqual(expected['code'], res['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2020-09-11 16:21:39,609 - [test_02register.py-->line:65] - ERROR: 用例手机号为字符串类型,测试未通过
+2020-09-11 16:21:41,595 - [test_03recharge.py-->line:78] - ERROR: 用例不输入金额，执行未通过
+2020-09-11 16:21:41,775 - [test_03recharge.py-->line:80] - ERROR: 1 != 2
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_03recharge.py", line 74, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 2
+2020-09-11 16:21:41,877 - [test_03recharge.py-->line:78] - ERROR: 用例充值金额为负数，执行未通过
+2020-09-11 16:21:42,056 - [test_03recharge.py-->line:80] - ERROR: '金额必须大于0并且小于或者等于500000' != '余额必须大于0并且小于或者等于500000'
+- 金额必须大于0并且小于或者等于500000
+? ^
++ 余额必须大于0并且小于或者等于500000
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_03recharge.py", line 75, in test_recharge
+    self.assertEqual(expected["msg"], res["msg"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '金额必须大于0并且小于或者等于500000' != '余额必须大于0并且小于或者等于500000'
+- 金额必须大于0并且小于或者等于500000
+? ^
++ 余额必须大于0并且小于或者等于500000
+? ^
+
+2020-09-11 16:21:42,178 - [test_03recharge.py-->line:78] - ERROR: 用例充值金额为500001，执行未通过
+2020-09-11 16:21:42,345 - [test_03recharge.py-->line:80] - ERROR: '金额必须大于0并且小于或者等于500000' != '余额必须大于0并且小于或者等于500000'
+- 金额必须大于0并且小于或者等于500000
+? ^
++ 余额必须大于0并且小于或者等于500000
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_03recharge.py", line 75, in test_recharge
+    self.assertEqual(expected["msg"], res["msg"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '金额必须大于0并且小于或者等于500000' != '余额必须大于0并且小于或者等于500000'
+- 金额必须大于0并且小于或者等于500000
+? ^
++ 余额必须大于0并且小于或者等于500000
+? ^
+
+2020-09-11 16:21:42,436 - [test_03recharge.py-->line:78] - ERROR: 用例充值金额非数字，执行未通过
+2020-09-11 16:21:42,596 - [test_03recharge.py-->line:80] - ERROR: '金额必须为数值型' != '余额必须为数值型'
+- 金额必须为数值型
+? ^
++ 余额必须为数值型
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_03recharge.py", line 75, in test_recharge
+    self.assertEqual(expected["msg"], res["msg"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '金额必须为数值型' != '余额必须为数值型'
+- 金额必须为数值型
+? ^
++ 余额必须为数值型
+? ^
+
+2020-09-11 16:21:42,695 - [test_03recharge.py-->line:78] - ERROR: 用例充值金额小数点3位，执行未通过
+2020-09-11 16:21:42,863 - [test_03recharge.py-->line:80] - ERROR: '金额小数超过两位' != '余额小数超过两位'
+- 金额小数超过两位
+? ^
++ 余额小数超过两位
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_03recharge.py", line 75, in test_recharge
+    self.assertEqual(expected["msg"], res["msg"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '金额小数超过两位' != '余额小数超过两位'
+- 金额小数超过两位
+? ^
++ 余额小数超过两位
+? ^
+
+2020-09-11 16:21:44,583 - [test_03recharge_v3.py-->line:90] - ERROR: 用例不输入金额，执行未通过
+2020-09-11 16:21:44,733 - [test_03recharge_v3.py-->line:92] - ERROR: 1 != 2
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_03recharge_v3.py", line 86, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 2
+2020-09-11 16:21:44,836 - [test_03recharge_v3.py-->line:90] - ERROR: 用例充值金额为负数，执行未通过
+2020-09-11 16:21:45,016 - [test_03recharge_v3.py-->line:92] - ERROR: '金额必须大于0并且小于或者等于500000' != '余额必须大于0并且小于或者等于500000'
+- 金额必须大于0并且小于或者等于500000
+? ^
++ 余额必须大于0并且小于或者等于500000
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_03recharge_v3.py", line 87, in test_recharge
+    self.assertEqual(expected["msg"], res["msg"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '金额必须大于0并且小于或者等于500000' != '余额必须大于0并且小于或者等于500000'
+- 金额必须大于0并且小于或者等于500000
+? ^
++ 余额必须大于0并且小于或者等于500000
+? ^
+
+2020-09-11 16:21:45,115 - [test_03recharge_v3.py-->line:90] - ERROR: 用例充值金额为500001，执行未通过
+2020-09-11 16:21:45,362 - [test_03recharge_v3.py-->line:92] - ERROR: '金额必须大于0并且小于或者等于500000' != '余额必须大于0并且小于或者等于500000'
+- 金额必须大于0并且小于或者等于500000
+? ^
++ 余额必须大于0并且小于或者等于500000
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_03recharge_v3.py", line 87, in test_recharge
+    self.assertEqual(expected["msg"], res["msg"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '金额必须大于0并且小于或者等于500000' != '余额必须大于0并且小于或者等于500000'
+- 金额必须大于0并且小于或者等于500000
+? ^
++ 余额必须大于0并且小于或者等于500000
+? ^
+
+2020-09-11 16:21:45,455 - [test_03recharge_v3.py-->line:90] - ERROR: 用例充值金额非数字，执行未通过
+2020-09-11 16:21:45,621 - [test_03recharge_v3.py-->line:92] - ERROR: '金额必须为数值型' != '余额必须为数值型'
+- 金额必须为数值型
+? ^
++ 余额必须为数值型
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_03recharge_v3.py", line 87, in test_recharge
+    self.assertEqual(expected["msg"], res["msg"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '金额必须为数值型' != '余额必须为数值型'
+- 金额必须为数值型
+? ^
++ 余额必须为数值型
+? ^
+
+2020-09-11 16:21:45,700 - [test_03recharge_v3.py-->line:90] - ERROR: 用例充值金额小数点3位，执行未通过
+2020-09-11 16:21:45,870 - [test_03recharge_v3.py-->line:92] - ERROR: '金额小数超过两位' != '余额小数超过两位'
+- 金额小数超过两位
+? ^
++ 余额小数超过两位
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_03recharge_v3.py", line 87, in test_recharge
+    self.assertEqual(expected["msg"], res["msg"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '金额小数超过两位' != '余额小数超过两位'
+- 金额小数超过两位
+? ^
++ 余额小数超过两位
+? ^
+
+2020-09-11 16:21:48,326 - [test_04withdraw.py-->line:67] - ERROR: 用例会员id为数值：执行失败
+2020-09-11 16:21:48,327 - [test_04withdraw.py-->line:68] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_04withdraw.py", line 64, in test_withdraw
+    self.assertEqual(jsonpath(res, '$.code')[0], expected['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2020-09-11 16:21:48,807 - [test_04withdraw.py-->line:67] - ERROR: 用例提现金额为0：执行失败
+2020-09-11 16:21:48,808 - [test_04withdraw.py-->line:68] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_04withdraw.py", line 64, in test_withdraw
+    self.assertEqual(jsonpath(res, '$.code')[0], expected['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2020-09-11 16:21:49,040 - [test_04withdraw.py-->line:67] - ERROR: 用例提现金额为负数：执行失败
+2020-09-11 16:21:49,040 - [test_04withdraw.py-->line:68] - ERROR: '余额必须大于0并且小于或者等于5000000' != '金额必须大于0并且小于或者等于500000'
+- 余额必须大于0并且小于或者等于5000000
+? ^                    -
++ 金额必须大于0并且小于或者等于500000
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_04withdraw.py", line 65, in test_withdraw
+    self.assertEqual(jsonpath(res, '$.msg')[0], expected['msg'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '余额必须大于0并且小于或者等于5000000' != '金额必须大于0并且小于或者等于500000'
+- 余额必须大于0并且小于或者等于5000000
+? ^                    -
++ 金额必须大于0并且小于或者等于500000
+? ^
+
+2020-09-11 16:21:49,268 - [test_04withdraw.py-->line:67] - ERROR: 用例提现金额为空：执行失败
+2020-09-11 16:21:49,268 - [test_04withdraw.py-->line:68] - ERROR: '余额为空' != '金额为空'
+- 余额为空
+? ^
++ 金额为空
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_04withdraw.py", line 65, in test_withdraw
+    self.assertEqual(jsonpath(res, '$.msg')[0], expected['msg'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '余额为空' != '金额为空'
+- 余额为空
+? ^
++ 金额为空
+? ^
+
+2020-09-11 16:21:49,500 - [test_04withdraw.py-->line:67] - ERROR: 用例提现金额-3位小数：执行失败
+2020-09-11 16:21:49,500 - [test_04withdraw.py-->line:68] - ERROR: '余额小数超过两位' != '金额小数超过两位'
+- 余额小数超过两位
+? ^
++ 金额小数超过两位
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_04withdraw.py", line 65, in test_withdraw
+    self.assertEqual(jsonpath(res, '$.msg')[0], expected['msg'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '余额小数超过两位' != '金额小数超过两位'
+- 余额小数超过两位
+? ^
++ 金额小数超过两位
+? ^
+
+2020-09-11 16:21:49,728 - [test_04withdraw.py-->line:67] - ERROR: 用例提现金额-大于50万：执行失败
+2020-09-11 16:21:49,728 - [test_04withdraw.py-->line:68] - ERROR: '余额必须大于0并且小于或者等于5000000' != '金额必须大于0并且小于或者等于500000'
+- 余额必须大于0并且小于或者等于5000000
+? ^                    -
++ 金额必须大于0并且小于或者等于500000
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_04withdraw.py", line 65, in test_withdraw
+    self.assertEqual(jsonpath(res, '$.msg')[0], expected['msg'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '余额必须大于0并且小于或者等于5000000' != '金额必须大于0并且小于或者等于500000'
+- 余额必须大于0并且小于或者等于5000000
+? ^                    -
++ 金额必须大于0并且小于或者等于500000
+? ^
+
+2020-09-11 16:21:52,522 - [test_04withdraw_v3.py-->line:79] - ERROR: 用例会员id为数值：执行失败
+2020-09-11 16:21:52,522 - [test_04withdraw_v3.py-->line:80] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_04withdraw_v3.py", line 76, in test_withdraw
+    self.assertEqual(jsonpath(res, '$.code')[0], expected['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2020-09-11 16:21:53,017 - [test_04withdraw_v3.py-->line:79] - ERROR: 用例提现金额为0：执行失败
+2020-09-11 16:21:53,017 - [test_04withdraw_v3.py-->line:80] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_04withdraw_v3.py", line 76, in test_withdraw
+    self.assertEqual(jsonpath(res, '$.code')[0], expected['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2020-09-11 16:21:53,257 - [test_04withdraw_v3.py-->line:79] - ERROR: 用例提现金额为负数：执行失败
+2020-09-11 16:21:53,257 - [test_04withdraw_v3.py-->line:80] - ERROR: '余额必须大于0并且小于或者等于5000000' != '金额必须大于0并且小于或者等于500000'
+- 余额必须大于0并且小于或者等于5000000
+? ^                    -
++ 金额必须大于0并且小于或者等于500000
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_04withdraw_v3.py", line 77, in test_withdraw
+    self.assertEqual(jsonpath(res, '$.msg')[0], expected['msg'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '余额必须大于0并且小于或者等于5000000' != '金额必须大于0并且小于或者等于500000'
+- 余额必须大于0并且小于或者等于5000000
+? ^                    -
++ 金额必须大于0并且小于或者等于500000
+? ^
+
+2020-09-11 16:21:53,507 - [test_04withdraw_v3.py-->line:79] - ERROR: 用例提现金额为空：执行失败
+2020-09-11 16:21:53,507 - [test_04withdraw_v3.py-->line:80] - ERROR: '余额为空' != '金额为空'
+- 余额为空
+? ^
++ 金额为空
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_04withdraw_v3.py", line 77, in test_withdraw
+    self.assertEqual(jsonpath(res, '$.msg')[0], expected['msg'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '余额为空' != '金额为空'
+- 余额为空
+? ^
++ 金额为空
+? ^
+
+2020-09-11 16:21:53,764 - [test_04withdraw_v3.py-->line:79] - ERROR: 用例提现金额-3位小数：执行失败
+2020-09-11 16:21:53,764 - [test_04withdraw_v3.py-->line:80] - ERROR: '余额小数超过两位' != '金额小数超过两位'
+- 余额小数超过两位
+? ^
++ 金额小数超过两位
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_04withdraw_v3.py", line 77, in test_withdraw
+    self.assertEqual(jsonpath(res, '$.msg')[0], expected['msg'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '余额小数超过两位' != '金额小数超过两位'
+- 余额小数超过两位
+? ^
++ 金额小数超过两位
+? ^
+
+2020-09-11 16:21:54,032 - [test_04withdraw_v3.py-->line:79] - ERROR: 用例提现金额-大于50万：执行失败
+2020-09-11 16:21:54,032 - [test_04withdraw_v3.py-->line:80] - ERROR: '余额必须大于0并且小于或者等于5000000' != '金额必须大于0并且小于或者等于500000'
+- 余额必须大于0并且小于或者等于5000000
+? ^                    -
++ 金额必须大于0并且小于或者等于500000
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_04withdraw_v3.py", line 77, in test_withdraw
+    self.assertEqual(jsonpath(res, '$.msg')[0], expected['msg'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '余额必须大于0并且小于或者等于5000000' != '金额必须大于0并且小于或者等于500000'
+- 余额必须大于0并且小于或者等于5000000
+? ^                    -
++ 金额必须大于0并且小于或者等于500000
+? ^
+
+2020-09-11 16:22:02,603 - [test_06audit_v3.py-->line:70] - ERROR: 用例审核通过，执行未通过
+2020-09-11 16:22:02,603 - [test_06audit_v3.py-->line:71] - ERROR: 0 != 1003
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_06audit_v3.py", line 65, in test_audit
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 1003
+2020-09-11 16:22:02,928 - [test_06audit_v3.py-->line:70] - ERROR: 用例审核不通过，执行未通过
+2020-09-11 16:22:02,928 - [test_06audit_v3.py-->line:71] - ERROR: 0 != 1003
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_06audit_v3.py", line 65, in test_audit
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 1003
+2020-09-11 16:22:03,336 - [test_06audit_v3.py-->line:70] - ERROR: 用例参数approved_or_not为空，执行未通过
+2020-09-11 16:22:03,336 - [test_06audit_v3.py-->line:71] - ERROR: 1 != 1003
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_06audit_v3.py", line 65, in test_audit
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 1003
+2020-09-11 16:22:03,683 - [test_06audit_v3.py-->line:70] - ERROR: 用例项目id为空，执行未通过
+2020-09-11 16:22:03,684 - [test_06audit_v3.py-->line:71] - ERROR: 1 != 1003
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_06audit_v3.py", line 65, in test_audit
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 1003
+2020-09-11 16:22:04,043 - [test_06audit_v3.py-->line:70] - ERROR: 用例项目id不存在，执行未通过
+2020-09-11 16:22:04,044 - [test_06audit_v3.py-->line:71] - ERROR: 2 != 1003
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_06audit_v3.py", line 65, in test_audit
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 1003
+2020-09-11 16:22:06,357 - [test_08update.py-->line:49] - ERROR: 用例修改昵称成功,执行失败
+2020-09-11 16:22:06,357 - [test_08update.py-->line:50] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_08update.py", line 46, in test_update
+    self.assertEqual(res['code'], expected['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2020-09-11 16:22:07,140 - [test_08update.py-->line:49] - ERROR: 用例昵称长度10位,执行失败
+2020-09-11 16:22:07,141 - [test_08update.py-->line:50] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_08update.py", line 46, in test_update
+    self.assertEqual(res['code'], expected['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2020-09-11 16:23:04,559 - [test_02register.py-->line:64] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_02register.py", line 52, in test_register
+    self.assertEqual(expected['code'], res['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2020-09-11 16:23:04,563 - [test_02register.py-->line:65] - ERROR: 用例注册名11位,测试未通过
+2020-09-11 16:23:05,265 - [test_02register.py-->line:64] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_02register.py", line 52, in test_register
+    self.assertEqual(expected['code'], res['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2020-09-11 16:23:05,266 - [test_02register.py-->line:65] - ERROR: 用例手机号为字符串类型,测试未通过
+2020-09-11 16:23:06,946 - [test_03recharge.py-->line:78] - ERROR: 用例不输入金额，执行未通过
+2020-09-11 16:23:07,092 - [test_03recharge.py-->line:80] - ERROR: 1 != 2
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_03recharge.py", line 74, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 2
+2020-09-11 16:23:07,178 - [test_03recharge.py-->line:78] - ERROR: 用例充值金额为负数，执行未通过
+2020-09-11 16:23:07,331 - [test_03recharge.py-->line:80] - ERROR: '金额必须大于0并且小于或者等于500000' != '余额必须大于0并且小于或者等于500000'
+- 金额必须大于0并且小于或者等于500000
+? ^
++ 余额必须大于0并且小于或者等于500000
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_03recharge.py", line 75, in test_recharge
+    self.assertEqual(expected["msg"], res["msg"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '金额必须大于0并且小于或者等于500000' != '余额必须大于0并且小于或者等于500000'
+- 金额必须大于0并且小于或者等于500000
+? ^
++ 余额必须大于0并且小于或者等于500000
+? ^
+
+2020-09-11 16:23:07,416 - [test_03recharge.py-->line:78] - ERROR: 用例充值金额为500001，执行未通过
+2020-09-11 16:23:07,562 - [test_03recharge.py-->line:80] - ERROR: '金额必须大于0并且小于或者等于500000' != '余额必须大于0并且小于或者等于500000'
+- 金额必须大于0并且小于或者等于500000
+? ^
++ 余额必须大于0并且小于或者等于500000
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_03recharge.py", line 75, in test_recharge
+    self.assertEqual(expected["msg"], res["msg"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '金额必须大于0并且小于或者等于500000' != '余额必须大于0并且小于或者等于500000'
+- 金额必须大于0并且小于或者等于500000
+? ^
++ 余额必须大于0并且小于或者等于500000
+? ^
+
+2020-09-11 16:23:07,645 - [test_03recharge.py-->line:78] - ERROR: 用例充值金额非数字，执行未通过
+2020-09-11 16:23:07,791 - [test_03recharge.py-->line:80] - ERROR: '金额必须为数值型' != '余额必须为数值型'
+- 金额必须为数值型
+? ^
++ 余额必须为数值型
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_03recharge.py", line 75, in test_recharge
+    self.assertEqual(expected["msg"], res["msg"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '金额必须为数值型' != '余额必须为数值型'
+- 金额必须为数值型
+? ^
++ 余额必须为数值型
+? ^
+
+2020-09-11 16:23:07,876 - [test_03recharge.py-->line:78] - ERROR: 用例充值金额小数点3位，执行未通过
+2020-09-11 16:23:08,025 - [test_03recharge.py-->line:80] - ERROR: '金额小数超过两位' != '余额小数超过两位'
+- 金额小数超过两位
+? ^
++ 余额小数超过两位
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_03recharge.py", line 75, in test_recharge
+    self.assertEqual(expected["msg"], res["msg"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '金额小数超过两位' != '余额小数超过两位'
+- 金额小数超过两位
+? ^
++ 余额小数超过两位
+? ^
+
+2020-09-11 16:23:09,538 - [test_03recharge_v3.py-->line:90] - ERROR: 用例不输入金额，执行未通过
+2020-09-11 16:23:09,682 - [test_03recharge_v3.py-->line:92] - ERROR: 1 != 2
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_03recharge_v3.py", line 86, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 2
+2020-09-11 16:23:09,762 - [test_03recharge_v3.py-->line:90] - ERROR: 用例充值金额为负数，执行未通过
+2020-09-11 16:23:09,913 - [test_03recharge_v3.py-->line:92] - ERROR: '金额必须大于0并且小于或者等于500000' != '余额必须大于0并且小于或者等于500000'
+- 金额必须大于0并且小于或者等于500000
+? ^
++ 余额必须大于0并且小于或者等于500000
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_03recharge_v3.py", line 87, in test_recharge
+    self.assertEqual(expected["msg"], res["msg"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '金额必须大于0并且小于或者等于500000' != '余额必须大于0并且小于或者等于500000'
+- 金额必须大于0并且小于或者等于500000
+? ^
++ 余额必须大于0并且小于或者等于500000
+? ^
+
+2020-09-11 16:23:09,998 - [test_03recharge_v3.py-->line:90] - ERROR: 用例充值金额为500001，执行未通过
+2020-09-11 16:23:10,205 - [test_03recharge_v3.py-->line:92] - ERROR: '金额必须大于0并且小于或者等于500000' != '余额必须大于0并且小于或者等于500000'
+- 金额必须大于0并且小于或者等于500000
+? ^
++ 余额必须大于0并且小于或者等于500000
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_03recharge_v3.py", line 87, in test_recharge
+    self.assertEqual(expected["msg"], res["msg"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '金额必须大于0并且小于或者等于500000' != '余额必须大于0并且小于或者等于500000'
+- 金额必须大于0并且小于或者等于500000
+? ^
++ 余额必须大于0并且小于或者等于500000
+? ^
+
+2020-09-11 16:23:10,303 - [test_03recharge_v3.py-->line:90] - ERROR: 用例充值金额非数字，执行未通过
+2020-09-11 16:23:10,461 - [test_03recharge_v3.py-->line:92] - ERROR: '金额必须为数值型' != '余额必须为数值型'
+- 金额必须为数值型
+? ^
++ 余额必须为数值型
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_03recharge_v3.py", line 87, in test_recharge
+    self.assertEqual(expected["msg"], res["msg"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '金额必须为数值型' != '余额必须为数值型'
+- 金额必须为数值型
+? ^
++ 余额必须为数值型
+? ^
+
+2020-09-11 16:23:10,545 - [test_03recharge_v3.py-->line:90] - ERROR: 用例充值金额小数点3位，执行未通过
+2020-09-11 16:23:10,686 - [test_03recharge_v3.py-->line:92] - ERROR: '金额小数超过两位' != '余额小数超过两位'
+- 金额小数超过两位
+? ^
++ 余额小数超过两位
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_03recharge_v3.py", line 87, in test_recharge
+    self.assertEqual(expected["msg"], res["msg"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '金额小数超过两位' != '余额小数超过两位'
+- 金额小数超过两位
+? ^
++ 余额小数超过两位
+? ^
+
+2020-09-11 16:23:12,935 - [test_04withdraw.py-->line:67] - ERROR: 用例会员id为数值：执行失败
+2020-09-11 16:23:12,935 - [test_04withdraw.py-->line:68] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_04withdraw.py", line 64, in test_withdraw
+    self.assertEqual(jsonpath(res, '$.code')[0], expected['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2020-09-11 16:23:13,408 - [test_04withdraw.py-->line:67] - ERROR: 用例提现金额为0：执行失败
+2020-09-11 16:23:13,408 - [test_04withdraw.py-->line:68] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_04withdraw.py", line 64, in test_withdraw
+    self.assertEqual(jsonpath(res, '$.code')[0], expected['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2020-09-11 16:23:13,634 - [test_04withdraw.py-->line:67] - ERROR: 用例提现金额为负数：执行失败
+2020-09-11 16:23:13,634 - [test_04withdraw.py-->line:68] - ERROR: '余额必须大于0并且小于或者等于5000000' != '金额必须大于0并且小于或者等于500000'
+- 余额必须大于0并且小于或者等于5000000
+? ^                    -
++ 金额必须大于0并且小于或者等于500000
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_04withdraw.py", line 65, in test_withdraw
+    self.assertEqual(jsonpath(res, '$.msg')[0], expected['msg'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '余额必须大于0并且小于或者等于5000000' != '金额必须大于0并且小于或者等于500000'
+- 余额必须大于0并且小于或者等于5000000
+? ^                    -
++ 金额必须大于0并且小于或者等于500000
+? ^
+
+2020-09-11 16:23:13,863 - [test_04withdraw.py-->line:67] - ERROR: 用例提现金额为空：执行失败
+2020-09-11 16:23:13,863 - [test_04withdraw.py-->line:68] - ERROR: '余额为空' != '金额为空'
+- 余额为空
+? ^
++ 金额为空
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_04withdraw.py", line 65, in test_withdraw
+    self.assertEqual(jsonpath(res, '$.msg')[0], expected['msg'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '余额为空' != '金额为空'
+- 余额为空
+? ^
++ 金额为空
+? ^
+
+2020-09-11 16:23:14,111 - [test_04withdraw.py-->line:67] - ERROR: 用例提现金额-3位小数：执行失败
+2020-09-11 16:23:14,111 - [test_04withdraw.py-->line:68] - ERROR: '余额小数超过两位' != '金额小数超过两位'
+- 余额小数超过两位
+? ^
++ 金额小数超过两位
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_04withdraw.py", line 65, in test_withdraw
+    self.assertEqual(jsonpath(res, '$.msg')[0], expected['msg'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '余额小数超过两位' != '金额小数超过两位'
+- 余额小数超过两位
+? ^
++ 金额小数超过两位
+? ^
+
+2020-09-11 16:23:14,342 - [test_04withdraw.py-->line:67] - ERROR: 用例提现金额-大于50万：执行失败
+2020-09-11 16:23:14,343 - [test_04withdraw.py-->line:68] - ERROR: '余额必须大于0并且小于或者等于5000000' != '金额必须大于0并且小于或者等于500000'
+- 余额必须大于0并且小于或者等于5000000
+? ^                    -
++ 金额必须大于0并且小于或者等于500000
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_04withdraw.py", line 65, in test_withdraw
+    self.assertEqual(jsonpath(res, '$.msg')[0], expected['msg'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '余额必须大于0并且小于或者等于5000000' != '金额必须大于0并且小于或者等于500000'
+- 余额必须大于0并且小于或者等于5000000
+? ^                    -
++ 金额必须大于0并且小于或者等于500000
+? ^
+
+2020-09-11 16:23:16,926 - [test_04withdraw_v3.py-->line:79] - ERROR: 用例会员id为数值：执行失败
+2020-09-11 16:23:16,926 - [test_04withdraw_v3.py-->line:80] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_04withdraw_v3.py", line 76, in test_withdraw
+    self.assertEqual(jsonpath(res, '$.code')[0], expected['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2020-09-11 16:23:17,433 - [test_04withdraw_v3.py-->line:79] - ERROR: 用例提现金额为0：执行失败
+2020-09-11 16:23:17,433 - [test_04withdraw_v3.py-->line:80] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_04withdraw_v3.py", line 76, in test_withdraw
+    self.assertEqual(jsonpath(res, '$.code')[0], expected['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2020-09-11 16:23:17,678 - [test_04withdraw_v3.py-->line:79] - ERROR: 用例提现金额为负数：执行失败
+2020-09-11 16:23:17,678 - [test_04withdraw_v3.py-->line:80] - ERROR: '余额必须大于0并且小于或者等于5000000' != '金额必须大于0并且小于或者等于500000'
+- 余额必须大于0并且小于或者等于5000000
+? ^                    -
++ 金额必须大于0并且小于或者等于500000
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_04withdraw_v3.py", line 77, in test_withdraw
+    self.assertEqual(jsonpath(res, '$.msg')[0], expected['msg'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '余额必须大于0并且小于或者等于5000000' != '金额必须大于0并且小于或者等于500000'
+- 余额必须大于0并且小于或者等于5000000
+? ^                    -
++ 金额必须大于0并且小于或者等于500000
+? ^
+
+2020-09-11 16:23:17,906 - [test_04withdraw_v3.py-->line:79] - ERROR: 用例提现金额为空：执行失败
+2020-09-11 16:23:17,906 - [test_04withdraw_v3.py-->line:80] - ERROR: '余额为空' != '金额为空'
+- 余额为空
+? ^
++ 金额为空
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_04withdraw_v3.py", line 77, in test_withdraw
+    self.assertEqual(jsonpath(res, '$.msg')[0], expected['msg'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '余额为空' != '金额为空'
+- 余额为空
+? ^
++ 金额为空
+? ^
+
+2020-09-11 16:23:18,136 - [test_04withdraw_v3.py-->line:79] - ERROR: 用例提现金额-3位小数：执行失败
+2020-09-11 16:23:18,136 - [test_04withdraw_v3.py-->line:80] - ERROR: '余额小数超过两位' != '金额小数超过两位'
+- 余额小数超过两位
+? ^
++ 金额小数超过两位
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_04withdraw_v3.py", line 77, in test_withdraw
+    self.assertEqual(jsonpath(res, '$.msg')[0], expected['msg'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '余额小数超过两位' != '金额小数超过两位'
+- 余额小数超过两位
+? ^
++ 金额小数超过两位
+? ^
+
+2020-09-11 16:23:18,379 - [test_04withdraw_v3.py-->line:79] - ERROR: 用例提现金额-大于50万：执行失败
+2020-09-11 16:23:18,379 - [test_04withdraw_v3.py-->line:80] - ERROR: '余额必须大于0并且小于或者等于5000000' != '金额必须大于0并且小于或者等于500000'
+- 余额必须大于0并且小于或者等于5000000
+? ^                    -
++ 金额必须大于0并且小于或者等于500000
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_04withdraw_v3.py", line 77, in test_withdraw
+    self.assertEqual(jsonpath(res, '$.msg')[0], expected['msg'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '余额必须大于0并且小于或者等于5000000' != '金额必须大于0并且小于或者等于500000'
+- 余额必须大于0并且小于或者等于5000000
+? ^                    -
++ 金额必须大于0并且小于或者等于500000
+? ^
+
+2020-09-11 16:23:26,940 - [test_06audit_v3.py-->line:72] - ERROR: 用例审核通过，执行未通过
+2020-09-11 16:23:26,940 - [test_06audit_v3.py-->line:73] - ERROR: 0 != 1003
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_06audit_v3.py", line 67, in test_audit
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 1003
+2020-09-11 16:23:27,260 - [test_06audit_v3.py-->line:72] - ERROR: 用例审核不通过，执行未通过
+2020-09-11 16:23:27,260 - [test_06audit_v3.py-->line:73] - ERROR: 0 != 1003
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_06audit_v3.py", line 67, in test_audit
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 1003
+2020-09-11 16:23:27,677 - [test_06audit_v3.py-->line:72] - ERROR: 用例参数approved_or_not为空，执行未通过
+2020-09-11 16:23:27,677 - [test_06audit_v3.py-->line:73] - ERROR: 1 != 1003
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_06audit_v3.py", line 67, in test_audit
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 1003
+2020-09-11 16:23:28,024 - [test_06audit_v3.py-->line:72] - ERROR: 用例项目id为空，执行未通过
+2020-09-11 16:23:28,025 - [test_06audit_v3.py-->line:73] - ERROR: 1 != 1003
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_06audit_v3.py", line 67, in test_audit
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 1003
+2020-09-11 16:23:28,377 - [test_06audit_v3.py-->line:72] - ERROR: 用例项目id不存在，执行未通过
+2020-09-11 16:23:28,377 - [test_06audit_v3.py-->line:73] - ERROR: 2 != 1003
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_06audit_v3.py", line 67, in test_audit
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 1003
+2020-09-11 16:23:30,620 - [test_08update.py-->line:49] - ERROR: 用例修改昵称成功,执行失败
+2020-09-11 16:23:30,621 - [test_08update.py-->line:50] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_08update.py", line 46, in test_update
+    self.assertEqual(res['code'], expected['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2020-09-11 16:23:31,370 - [test_08update.py-->line:49] - ERROR: 用例昵称长度10位,执行失败
+2020-09-11 16:23:31,370 - [test_08update.py-->line:50] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_08update.py", line 46, in test_update
+    self.assertEqual(res['code'], expected['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2020-09-11 16:30:35,861 - [test_02register.py-->line:64] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_02register.py", line 52, in test_register
+    self.assertEqual(expected['code'], res['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2020-09-11 16:30:35,862 - [test_02register.py-->line:65] - ERROR: 用例注册名11位,测试未通过
+2020-09-11 16:30:36,545 - [test_02register.py-->line:64] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_02register.py", line 52, in test_register
+    self.assertEqual(expected['code'], res['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2020-09-11 16:30:36,546 - [test_02register.py-->line:65] - ERROR: 用例手机号为字符串类型,测试未通过
+2020-09-11 16:30:38,146 - [test_03recharge.py-->line:78] - ERROR: 用例不输入金额，执行未通过
+2020-09-11 16:30:38,298 - [test_03recharge.py-->line:80] - ERROR: 1 != 2
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_03recharge.py", line 74, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 2
+2020-09-11 16:30:38,378 - [test_03recharge.py-->line:78] - ERROR: 用例充值金额为负数，执行未通过
+2020-09-11 16:30:38,526 - [test_03recharge.py-->line:80] - ERROR: '金额必须大于0并且小于或者等于500000' != '余额必须大于0并且小于或者等于500000'
+- 金额必须大于0并且小于或者等于500000
+? ^
++ 余额必须大于0并且小于或者等于500000
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_03recharge.py", line 75, in test_recharge
+    self.assertEqual(expected["msg"], res["msg"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '金额必须大于0并且小于或者等于500000' != '余额必须大于0并且小于或者等于500000'
+- 金额必须大于0并且小于或者等于500000
+? ^
++ 余额必须大于0并且小于或者等于500000
+? ^
+
+2020-09-11 16:30:38,607 - [test_03recharge.py-->line:78] - ERROR: 用例充值金额为500001，执行未通过
+2020-09-11 16:30:38,758 - [test_03recharge.py-->line:80] - ERROR: '金额必须大于0并且小于或者等于500000' != '余额必须大于0并且小于或者等于500000'
+- 金额必须大于0并且小于或者等于500000
+? ^
++ 余额必须大于0并且小于或者等于500000
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_03recharge.py", line 75, in test_recharge
+    self.assertEqual(expected["msg"], res["msg"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '金额必须大于0并且小于或者等于500000' != '余额必须大于0并且小于或者等于500000'
+- 金额必须大于0并且小于或者等于500000
+? ^
++ 余额必须大于0并且小于或者等于500000
+? ^
+
+2020-09-11 16:30:38,843 - [test_03recharge.py-->line:78] - ERROR: 用例充值金额非数字，执行未通过
+2020-09-11 16:30:38,995 - [test_03recharge.py-->line:80] - ERROR: '金额必须为数值型' != '余额必须为数值型'
+- 金额必须为数值型
+? ^
++ 余额必须为数值型
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_03recharge.py", line 75, in test_recharge
+    self.assertEqual(expected["msg"], res["msg"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '金额必须为数值型' != '余额必须为数值型'
+- 金额必须为数值型
+? ^
++ 余额必须为数值型
+? ^
+
+2020-09-11 16:30:39,078 - [test_03recharge.py-->line:78] - ERROR: 用例充值金额小数点3位，执行未通过
+2020-09-11 16:30:39,227 - [test_03recharge.py-->line:80] - ERROR: '金额小数超过两位' != '余额小数超过两位'
+- 金额小数超过两位
+? ^
++ 余额小数超过两位
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_03recharge.py", line 75, in test_recharge
+    self.assertEqual(expected["msg"], res["msg"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '金额小数超过两位' != '余额小数超过两位'
+- 金额小数超过两位
+? ^
++ 余额小数超过两位
+? ^
+
+2020-09-11 16:30:40,828 - [test_03recharge_v3.py-->line:90] - ERROR: 用例不输入金额，执行未通过
+2020-09-11 16:30:40,982 - [test_03recharge_v3.py-->line:92] - ERROR: 1 != 2
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_03recharge_v3.py", line 86, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 2
+2020-09-11 16:30:41,066 - [test_03recharge_v3.py-->line:90] - ERROR: 用例充值金额为负数，执行未通过
+2020-09-11 16:30:41,213 - [test_03recharge_v3.py-->line:92] - ERROR: '金额必须大于0并且小于或者等于500000' != '余额必须大于0并且小于或者等于500000'
+- 金额必须大于0并且小于或者等于500000
+? ^
++ 余额必须大于0并且小于或者等于500000
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_03recharge_v3.py", line 87, in test_recharge
+    self.assertEqual(expected["msg"], res["msg"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '金额必须大于0并且小于或者等于500000' != '余额必须大于0并且小于或者等于500000'
+- 金额必须大于0并且小于或者等于500000
+? ^
++ 余额必须大于0并且小于或者等于500000
+? ^
+
+2020-09-11 16:30:41,299 - [test_03recharge_v3.py-->line:90] - ERROR: 用例充值金额为500001，执行未通过
+2020-09-11 16:30:41,447 - [test_03recharge_v3.py-->line:92] - ERROR: '金额必须大于0并且小于或者等于500000' != '余额必须大于0并且小于或者等于500000'
+- 金额必须大于0并且小于或者等于500000
+? ^
++ 余额必须大于0并且小于或者等于500000
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_03recharge_v3.py", line 87, in test_recharge
+    self.assertEqual(expected["msg"], res["msg"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '金额必须大于0并且小于或者等于500000' != '余额必须大于0并且小于或者等于500000'
+- 金额必须大于0并且小于或者等于500000
+? ^
++ 余额必须大于0并且小于或者等于500000
+? ^
+
+2020-09-11 16:30:41,532 - [test_03recharge_v3.py-->line:90] - ERROR: 用例充值金额非数字，执行未通过
+2020-09-11 16:30:41,679 - [test_03recharge_v3.py-->line:92] - ERROR: '金额必须为数值型' != '余额必须为数值型'
+- 金额必须为数值型
+? ^
++ 余额必须为数值型
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_03recharge_v3.py", line 87, in test_recharge
+    self.assertEqual(expected["msg"], res["msg"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '金额必须为数值型' != '余额必须为数值型'
+- 金额必须为数值型
+? ^
++ 余额必须为数值型
+? ^
+
+2020-09-11 16:30:41,763 - [test_03recharge_v3.py-->line:90] - ERROR: 用例充值金额小数点3位，执行未通过
+2020-09-11 16:30:41,905 - [test_03recharge_v3.py-->line:92] - ERROR: '金额小数超过两位' != '余额小数超过两位'
+- 金额小数超过两位
+? ^
++ 余额小数超过两位
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_03recharge_v3.py", line 87, in test_recharge
+    self.assertEqual(expected["msg"], res["msg"])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '金额小数超过两位' != '余额小数超过两位'
+- 金额小数超过两位
+? ^
++ 余额小数超过两位
+? ^
+
+2020-09-11 16:30:44,173 - [test_04withdraw.py-->line:67] - ERROR: 用例会员id为数值：执行失败
+2020-09-11 16:30:44,173 - [test_04withdraw.py-->line:68] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_04withdraw.py", line 64, in test_withdraw
+    self.assertEqual(jsonpath(res, '$.code')[0], expected['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2020-09-11 16:30:44,652 - [test_04withdraw.py-->line:67] - ERROR: 用例提现金额为0：执行失败
+2020-09-11 16:30:44,652 - [test_04withdraw.py-->line:68] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_04withdraw.py", line 64, in test_withdraw
+    self.assertEqual(jsonpath(res, '$.code')[0], expected['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2020-09-11 16:30:44,879 - [test_04withdraw.py-->line:67] - ERROR: 用例提现金额为负数：执行失败
+2020-09-11 16:30:44,879 - [test_04withdraw.py-->line:68] - ERROR: '余额必须大于0并且小于或者等于5000000' != '金额必须大于0并且小于或者等于500000'
+- 余额必须大于0并且小于或者等于5000000
+? ^                    -
++ 金额必须大于0并且小于或者等于500000
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_04withdraw.py", line 65, in test_withdraw
+    self.assertEqual(jsonpath(res, '$.msg')[0], expected['msg'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '余额必须大于0并且小于或者等于5000000' != '金额必须大于0并且小于或者等于500000'
+- 余额必须大于0并且小于或者等于5000000
+? ^                    -
++ 金额必须大于0并且小于或者等于500000
+? ^
+
+2020-09-11 16:30:45,115 - [test_04withdraw.py-->line:67] - ERROR: 用例提现金额为空：执行失败
+2020-09-11 16:30:45,115 - [test_04withdraw.py-->line:68] - ERROR: '余额为空' != '金额为空'
+- 余额为空
+? ^
++ 金额为空
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_04withdraw.py", line 65, in test_withdraw
+    self.assertEqual(jsonpath(res, '$.msg')[0], expected['msg'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '余额为空' != '金额为空'
+- 余额为空
+? ^
++ 金额为空
+? ^
+
+2020-09-11 16:30:45,387 - [test_04withdraw.py-->line:67] - ERROR: 用例提现金额-3位小数：执行失败
+2020-09-11 16:30:45,387 - [test_04withdraw.py-->line:68] - ERROR: '余额小数超过两位' != '金额小数超过两位'
+- 余额小数超过两位
+? ^
++ 金额小数超过两位
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_04withdraw.py", line 65, in test_withdraw
+    self.assertEqual(jsonpath(res, '$.msg')[0], expected['msg'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '余额小数超过两位' != '金额小数超过两位'
+- 余额小数超过两位
+? ^
++ 金额小数超过两位
+? ^
+
+2020-09-11 16:30:45,668 - [test_04withdraw.py-->line:67] - ERROR: 用例提现金额-大于50万：执行失败
+2020-09-11 16:30:45,668 - [test_04withdraw.py-->line:68] - ERROR: '余额必须大于0并且小于或者等于5000000' != '金额必须大于0并且小于或者等于500000'
+- 余额必须大于0并且小于或者等于5000000
+? ^                    -
++ 金额必须大于0并且小于或者等于500000
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_04withdraw.py", line 65, in test_withdraw
+    self.assertEqual(jsonpath(res, '$.msg')[0], expected['msg'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '余额必须大于0并且小于或者等于5000000' != '金额必须大于0并且小于或者等于500000'
+- 余额必须大于0并且小于或者等于5000000
+? ^                    -
++ 金额必须大于0并且小于或者等于500000
+? ^
+
+2020-09-11 16:30:48,208 - [test_04withdraw_v3.py-->line:79] - ERROR: 用例会员id为数值：执行失败
+2020-09-11 16:30:48,208 - [test_04withdraw_v3.py-->line:80] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_04withdraw_v3.py", line 76, in test_withdraw
+    self.assertEqual(jsonpath(res, '$.code')[0], expected['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2020-09-11 16:30:48,700 - [test_04withdraw_v3.py-->line:79] - ERROR: 用例提现金额为0：执行失败
+2020-09-11 16:30:48,700 - [test_04withdraw_v3.py-->line:80] - ERROR: 0 != 2
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_04withdraw_v3.py", line 76, in test_withdraw
+    self.assertEqual(jsonpath(res, '$.code')[0], expected['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2020-09-11 16:30:48,943 - [test_04withdraw_v3.py-->line:79] - ERROR: 用例提现金额为负数：执行失败
+2020-09-11 16:30:48,943 - [test_04withdraw_v3.py-->line:80] - ERROR: '余额必须大于0并且小于或者等于5000000' != '金额必须大于0并且小于或者等于500000'
+- 余额必须大于0并且小于或者等于5000000
+? ^                    -
++ 金额必须大于0并且小于或者等于500000
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_04withdraw_v3.py", line 77, in test_withdraw
+    self.assertEqual(jsonpath(res, '$.msg')[0], expected['msg'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '余额必须大于0并且小于或者等于5000000' != '金额必须大于0并且小于或者等于500000'
+- 余额必须大于0并且小于或者等于5000000
+? ^                    -
++ 金额必须大于0并且小于或者等于500000
+? ^
+
+2020-09-11 16:30:49,165 - [test_04withdraw_v3.py-->line:79] - ERROR: 用例提现金额为空：执行失败
+2020-09-11 16:30:49,165 - [test_04withdraw_v3.py-->line:80] - ERROR: '余额为空' != '金额为空'
+- 余额为空
+? ^
++ 金额为空
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_04withdraw_v3.py", line 77, in test_withdraw
+    self.assertEqual(jsonpath(res, '$.msg')[0], expected['msg'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '余额为空' != '金额为空'
+- 余额为空
+? ^
++ 金额为空
+? ^
+
+2020-09-11 16:30:49,389 - [test_04withdraw_v3.py-->line:79] - ERROR: 用例提现金额-3位小数：执行失败
+2020-09-11 16:30:49,390 - [test_04withdraw_v3.py-->line:80] - ERROR: '余额小数超过两位' != '金额小数超过两位'
+- 余额小数超过两位
+? ^
++ 金额小数超过两位
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_04withdraw_v3.py", line 77, in test_withdraw
+    self.assertEqual(jsonpath(res, '$.msg')[0], expected['msg'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '余额小数超过两位' != '金额小数超过两位'
+- 余额小数超过两位
+? ^
++ 金额小数超过两位
+? ^
+
+2020-09-11 16:30:49,622 - [test_04withdraw_v3.py-->line:79] - ERROR: 用例提现金额-大于50万：执行失败
+2020-09-11 16:30:49,622 - [test_04withdraw_v3.py-->line:80] - ERROR: '余额必须大于0并且小于或者等于5000000' != '金额必须大于0并且小于或者等于500000'
+- 余额必须大于0并且小于或者等于5000000
+? ^                    -
++ 金额必须大于0并且小于或者等于500000
+? ^
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_04withdraw_v3.py", line 77, in test_withdraw
+    self.assertEqual(jsonpath(res, '$.msg')[0], expected['msg'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '余额必须大于0并且小于或者等于5000000' != '金额必须大于0并且小于或者等于500000'
+- 余额必须大于0并且小于或者等于5000000
+? ^                    -
++ 金额必须大于0并且小于或者等于500000
+? ^
+
+2020-09-11 16:31:04,083 - [test_08update.py-->line:49] - ERROR: 用例修改昵称成功,执行失败
+2020-09-11 16:31:04,083 - [test_08update.py-->line:50] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_08update.py", line 46, in test_update
+    self.assertEqual(res['code'], expected['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2020-09-11 16:31:04,788 - [test_08update.py-->line:49] - ERROR: 用例昵称长度10位,执行失败
+2020-09-11 16:31:04,788 - [test_08update.py-->line:50] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_08update.py", line 46, in test_update
+    self.assertEqual(res['code'], expected['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2020-09-11 16:31:05,344 - [test_08update_v3.py-->line:60] - ERROR: 用例修改昵称成功,执行失败
+2020-09-11 16:31:05,344 - [test_08update_v3.py-->line:61] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_08update_v3.py", line 57, in test_update
+    self.assertEqual(res['code'], expected['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2020-09-11 16:31:06,040 - [test_08update_v3.py-->line:60] - ERROR: 用例昵称长度10位,执行失败
+2020-09-11 16:31:06,040 - [test_08update_v3.py-->line:61] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "E:\practice\py31\project01\testcases\test_08update_v3.py", line 57, in test_update
+    self.assertEqual(res['code'], expected['code'])
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0

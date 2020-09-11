@@ -33,7 +33,7 @@ def setup_login(cls):
 
 def setup_login_invest(cls):
     """
-    普通用户登录（投资接口中的借款人）
+    普通用户登录（投资接口中的投资人）
     :param cls: 测试用例类
     :return:
     """
@@ -50,6 +50,7 @@ def setup_login_invest(cls):
     res = response.json()
     # 提取token
     token = jsonpath(res, "$..token")[0]
+    cls.invest_token_value = token
     cls.invest_token = "Bearer" + " " + token
     # 提取用户id
     cls.invest_member_id = jsonpath(res, "$..id")[0]
@@ -67,6 +68,7 @@ def setup_login_admin(cls):
     res = response.json()
     # 提取token
     cls.admin_token = "Bearer" + " " + jsonpath(res, "$..token")[0]
+    cls.admin_token_value = jsonpath(res, '$..token')[0]
 
 
 def setup_add(cls):
